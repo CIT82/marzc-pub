@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(12, 73, 70);
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(75, 0, 105);
+    font-size: 100px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 1px 1px 2px gray;
+}
+
+h2 {
+    color: rgb(75, 0, 105);
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: 1px 1px 2px gray;
+}
+
+img {
+    border: 2px solid black;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
