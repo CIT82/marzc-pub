@@ -1,0 +1,74 @@
+.quote {
+    font-style: italic;
+    color: #000000;
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+    margin: 20px 0;
+    border: 2px black solid;
+    background-color: rgb(190, 189, 189);
+    box-shadow: 5px 5px 5px grey;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #d8d8d8;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.player-container {
+  background: rgb(53, 40, 58);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.player-container h2 {
+  margin-bottom: 15px;
+}
+
+#fileInput {
+  margin-bottom: 15px;
+  padding: 8px;
+}
+
+.video-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+video {
+  width: 640px;
+  height: 360px;
+  border-radius: 8px;
+  display: block;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 8px;
+  border-radius: 0 0 8px 8px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.controls input[type="range"] {
+  flex: 1;
+  margin: 0 8px;
+}
